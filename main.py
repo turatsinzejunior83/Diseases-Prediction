@@ -12,7 +12,7 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('D:\Work\MachineLearning\DeployingMachineLearningmodel\diabetes_model.sav','rb'))
+diabetes_model = pickle.load(open('D:\Work\MachineLearning\DeployingMachineLearningmodel/diabetes_model.sav','rb'))
 
 heart_disease_model = pickle.load(open('D:\Work\MachineLearning\DeployingMachineLearningmodel/heart_disease_model.sav', 'rb'))
 
