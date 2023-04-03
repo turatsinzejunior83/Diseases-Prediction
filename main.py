@@ -14,15 +14,15 @@ from streamlit_option_menu import option_menu
 
 diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
 
-heart_disease_model = pickle.load(open('D:\Work\MachineLearning\Deploying/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('D:\Work\MachineLearning\Deploying/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
-lung_cancer_model = pickle.load(open('D:\Work\MachineLearning\Deploying/lungcancer_model.sav', 'rb'))
+lung_cancer_model = pickle.load(open('lungcancer_model.sav', 'rb'))
 
-breast_cancer_model = pickle.load(open('D:\Work\MachineLearning\Deploying/breast_cancer_disease_model.sav', 'rb'))
+breast_cancer_model = pickle.load(open('breast_cancer_disease_model.sav', 'rb'))
 
-stroke_model = pickle.load(open('D:\Work\MachineLearning\Deploying/stroke_model.sav', 'rb'))
+stroke_model = pickle.load(open('Deploying/stroke_model.sav', 'rb'))
 
 
 # sidebar for navigation
