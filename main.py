@@ -12,17 +12,17 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('D:\Work\MachineLearning\DeployingMachineLearningmodel/diabetes_model.sav','rb'))
+diabetes_model = pickle.load(open('D:\Work\MachineLearning\Deploying/diabetes_model.sav','rb'))
 
-heart_disease_model = pickle.load(open('D:\Work\MachineLearning\DeployingMachineLearningmodel/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('D:\Work\MachineLearning\Deploying/heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('D:\Work\MachineLearning\DeployingMachineLearningmodel/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('D:\Work\MachineLearning\Deploying/parkinsons_model.sav', 'rb'))
 
-lung_cancer_model = pickle.load(open('D:\Work\MachineLearning\DeployingMachineLearningmodel/lungcancer_model.sav', 'rb'))
+lung_cancer_model = pickle.load(open('D:\Work\MachineLearning\Deploying/lungcancer_model.sav', 'rb'))
 
-breast_cancer_model = pickle.load(open('D:\Work\MachineLearning\DeployingMachineLearningmodel/breast_cancer_disease_model.sav', 'rb'))
+breast_cancer_model = pickle.load(open('D:\Work\MachineLearning\Deploying/breast_cancer_disease_model.sav', 'rb'))
 
-stroke_model = pickle.load(open('D:\Work\MachineLearning\DeployingMachineLearningmodel/stroke_model.sav', 'rb'))
+stroke_model = pickle.load(open('D:\Work\MachineLearning\Deploying/stroke_model.sav', 'rb'))
 
 
 # sidebar for navigation
