@@ -22,7 +22,7 @@ lung_cancer_model = pickle.load(open('lungcancer_model.sav', 'rb'))
 
 breast_cancer_model = pickle.load(open('breast_cancer_disease_model.sav', 'rb'))
 
-stroke_model = pickle.load(open('Deploying/stroke_model.sav', 'rb'))
+stroke_model = pickle.load(open('stroke_model.sav', 'rb'))
 
 
 # sidebar for navigation
